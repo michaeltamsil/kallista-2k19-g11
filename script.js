@@ -8,8 +8,9 @@ $(function () {
                 } = response
 
                 const newData = data.sort((a, b) => {
-                    return 1
-                })
+                    console.log(a.name < b.name)
+                    return a.name < b.name ? -1 : 1;
+                });
 
                 newData.forEach(item => {
                     let tr = $('<tr></tr>')
