@@ -21,19 +21,23 @@ $(function () {
                     $(tr).append(name);
 
                     let githubName = $('<td></td>')
-                    if (item.name) {
-                        $(githubName).text(item.githubName)
+                    if (item.githubName) {
+                        $(githubName).html(`<a target="_blank" href="https://github.com/${item.githubName}">${item.githubName}</a>`)
                     }
                     $(tr).append(githubName);
 
                     let basicHTMLURL = $('<td></td>')
+                    let buttonLink = $(`<a class="btn btn-success" target="_blank">website</a>`);
                     if (item.basicHTMLURL) {
-                        const buttonLink = $(`<a class="btn btn-success" target="_blank" href="${item.basicHTMLURL}">website</a>`)
-                        $(buttonLink).text('website');
-                        $(basicHTMLURL).html(buttonLink)
+                        $(buttonLink).attr('href', item.basicHTMLURL);
+                        $(buttonLink).attr('target', "_blank");
+                    }else{
+                        $(buttonLink).addClass('disabled')
                     }
+                    $(buttonLink).text('website');
+                    $(basicHTMLURL).html(buttonLink)
+
                     $(tr).append(basicHTMLURL);
-                    console.log(htmlSelector)
                     $(htmlSelector).append(tr);
                 })
 
