@@ -1,10 +1,14 @@
 {
     "data":[
         {
-            "name": "Adhistry Putrina S"
+            "name": "Adhisty Putrina S",
+            "githubName": "adhistysuwandhi",
+            "basicHTMLURL": "https://adhistysuwandhi.github.io/basic_html/week_06/"
         },
         {
-            "name": "Antoni Hermawan"
+            "name": "Antoni Hermawan",
+            "githubName": "antonyhe",
+            "basicHTMLURL": "https://antonyhe.github.io/basic_html/week_06/"
         },
         {
             "name": "Charles Lauren",
@@ -12,7 +16,9 @@
             "basicHTMLURL": "https://spiritxt.github.io/basic_html/week_06/"
         },
         {
-            "name": "Jerry Brooklyn MA"
+            "name": "Jerry Brooklyn MA",
+            "githubName": "slanceplays",
+            "basicHTMLURL": "https://slanceplays.github.io/basic_html/week_06/"
         },
         {
             "name": "Joan Herlby Huang",
@@ -44,12 +50,17 @@
             "githubName": "smallwizard",
             "basicHTMLURL": "https://smallwizard.github.io/basic_html/week_06/"
         },{
-            "name": "Wulan Kristina Tan H"
+            "name": "Wulan Kristina Tan H",
+            "githubName": "wulan-ai",
+            "basicHTMLURL":"https://wulan-ai.github.io/basic_html/week_06/"
         },{
             "name": "Jeneifer G. B. P.",
-            "githubName": "jeneiferpanggabean"
+            "githubName": "jeneiferpanggabean",
+            "basicHTMLURL":"https://jeneiferpanggabean.github.io/jbasic_html/week_06/"
         },{
-            "name": "Anebell Leonie"
+            "name": "Anebell Leonie",
+            "githubName":"Anebell",
+            "basicHTMLURL": "https://anebell.github.io/basic_html/week_6/"
         }
     ]
 }
