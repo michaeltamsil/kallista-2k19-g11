@@ -8,7 +8,7 @@ $(function () {
                 } = response
 
                 const newData = data.sort((a, b) => {
-                    return a.name - b.name;
+                    return 1
                 })
 
                 newData.forEach(item => {
